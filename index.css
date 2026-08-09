@@ -1,0 +1,50 @@
+.cv{
+    display: flex;
+    width: 900px;
+    margin: 30px;
+    background: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background: #f0f0f0;
+}
+.left{
+    width: 35%;
+    background: pink;
+    color: white;
+    padding: 20px;
+}
+.profil{
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: serif, sans-serif;
+}
+.section{
+    margin-bottom: 50px;
+}
+.section h3{
+    border-bottom: 5px solid beige;
+    margin-bottom: 10px;
+
+}
+.profil img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 130px;
+    height: 130px;
+}
+.right{
+    width: 60%;
+    padding: 25px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+
+}
+em{
+    color: brown;
+}
