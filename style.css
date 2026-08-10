@@ -1,4 +1,6 @@
-.cv{
+
+
+ .cv{
     display: flex;
     width: 900px;
     margin: 30px;
@@ -47,4 +49,34 @@ body{
 }
 em{
     color: brown;
+}
+.container{
+   .cv{
+    display: flex;
+    height: min-content;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+   }
+   .left{
+    width: 40%;
+    margin-bottom: 20px;
+
+   }
+   .right{
+    width: 60%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+   }
+}
+@media(max-width:768px) {
+    .container{
+        .cv{
+            display: flex;
+            flex-direction: column;
+            height: fit-content;
+            max-width: fit-content;
+        }
+    }
+    
 }
